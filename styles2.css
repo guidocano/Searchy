@@ -1,0 +1,22 @@
+html{
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+i {
+    color: rgb(99, 97, 97);
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+h1{
+    
+}
+
+.err{
+    color: rgb(99, 97, 97);
+}
+
+.try{
+    font-size: 20px;
+}
