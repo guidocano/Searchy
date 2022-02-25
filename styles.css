@@ -2,6 +2,45 @@
     margin: 0;
 }
 
+
+/* Navbar */
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navy{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navychild, .navychild2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+}
+
+.navychild2{
+    fill: aqua;
+    width: 100px;
+    height: 6px;
+    text-align:center;
+    background-color: rgb(22, 122, 216);
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.navychild2 a{
+    color: white    
+}
+
+
 .logo{
 /* border: red 1px solid; */
     margin:auto;

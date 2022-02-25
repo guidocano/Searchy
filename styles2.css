@@ -3,20 +3,22 @@ html{
     margin-top: 8%;
 }
 
+
+
 i {
     color: rgb(99, 97, 97);
-    font-size: 45px;
-    padding-bottom: 10px;
+    font-size: 40px;
 }
 
 h1{
-    
+    font-size: 30px;
 }
 
 .err{
     color: rgb(99, 97, 97);
+    font-size: 12px;
 }
 
 .try{
-    font-size: 20px;
+    font-size: 17px;
 }
