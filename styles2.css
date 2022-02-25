@@ -22,3 +22,7 @@ h1{
 .try{
     font-size: 17px;
 }
+
+.try.try2{
+    margin-bottom: -12px;
+}
