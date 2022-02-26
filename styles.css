@@ -29,7 +29,7 @@ nav a{
     width: 100px;
     height: 6px;
     text-align:center;
-    background-color: rgb(22, 122, 216);
+    background-color: rgb(32, 131, 223);
     border-radius: 5px;
     display: flex;
     justify-content:center;
@@ -56,29 +56,30 @@ nav a{
 
 h1{
     text-align: center;
-    font-size: 85px;
+    font-size: 95px;
     font-family: 'Bubblegum Sans', cursive;
     /* font-family: 'Righteous', cursive; */
-    color: rgb(66, 66, 221);
     font-weight: 500;
-}
-
-form{
-    /* border: black 1px solid; */
+    display: flex;
+    justify-content: center;
 }
 
 form input {
-    border: rgb(146, 145, 145) 1px solid;
+    border: rgb(190, 190, 190) 1px solid;
     border-radius: 100px;
-    width: 40vw;
-    height: 6vh;
+    width: 45vw;
+    height: 7vh;
     padding-left: 50px;
     padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
 }
+
 
 i{
     position:relative;
     margin: -40px;
+    vertical-align:-10%;
 }
 
 .fa-search {
@@ -86,10 +87,52 @@ i{
 }
 
 .fa-microphone {
-    color: rgb(22, 122, 216);
+    color: rgb(32, 131, 223);
     font-size: 20px;
 }
 
 input:hover, input:focus {
     outline: none;
   }
+
+
+/* Footer */
+
+footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.footerbox {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border: rgb(221, 221, 221) solid 1px;
+    background-color: rgb(247, 244, 244);
+    padding: 14px;
+}
+
+footer a{
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.right{
+    position: fixed;
+    right: 14px;
+}
+
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
