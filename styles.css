@@ -6,13 +6,17 @@
 /* Navbar */
 
 nav a{
-    color: black;
+    color: rgb(39, 39, 39);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 .navy{
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -25,7 +29,6 @@ nav a{
 }
 
 .navychild2{
-    fill: aqua;
     width: 100px;
     height: 6px;
     text-align:center;
@@ -36,13 +39,16 @@ nav a{
     align-items: center;
 }
 
+.navychild2:hover{
+    background-color: rgb(31, 144, 250);
+}
+
 .navychild2 a{
     color: white    
 }
 
 
 .logo{
-/* border: red 1px solid; */
     margin:auto;
     height: 200px;
     max-width: 90vw;
@@ -95,6 +101,37 @@ input:hover, input:focus {
     outline: none;
   }
 
+/* Buttons */
+
+.buttons a{
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button:hover{
+    border: rgb(221, 221, 221) solid 1.5px;
+}
+
+.button{
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 35px;
+    background-color: rgb(247, 244, 244);
+    margin:5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: rgb(247, 244, 244) solid 1.5px;
+}
 
 /* Footer */
 
@@ -120,6 +157,10 @@ footer a{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: lighter;
     padding: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 .right{
