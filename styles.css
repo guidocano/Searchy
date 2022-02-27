@@ -84,6 +84,7 @@ nav a:hover{
 
 .logo{
     margin:auto;
+    margin-top: 170px;
     height: 200px;
     max-width: 90vw;
     position:fixed;
@@ -102,8 +103,6 @@ nav a:hover{
     font-weight: 500;
     display: flex;
     justify-content: center;
-    background-color: white;
-    width: 100vw;
 }
 
 
