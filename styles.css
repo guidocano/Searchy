@@ -18,10 +18,10 @@ nav a{
 }
 
 .navy-left a{
-    color: rgb(99, 99, 99);
+    color: rgb(105, 105, 105);
     text-decoration: none;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 nav a:hover{
@@ -249,7 +249,17 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     }
 
     .left{
-        display: none;
+        visibility: hidden;
     }
 
+    .right{
+        position: fixed;
+        right: 14px;
+        left: 14px;
+    }
+    
+    .right a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
