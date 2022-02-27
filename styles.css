@@ -1,4 +1,4 @@
-*{
+html *{
     margin: 0;
 }
 
@@ -214,11 +214,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 /* RESPONSIVE */
 @media screen and (max-width: 640px) {
-
-    *{
-        width: 100vw;
-        height: 100vh;
-    }
 
     .navy-left{
         visibility: visible;
