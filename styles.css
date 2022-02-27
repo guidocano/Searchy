@@ -1,6 +1,9 @@
-html *{
+html{
     margin: 0;
+    height: 100vh;
 }
+
+
 
 
 /* Navbar */
@@ -99,7 +102,10 @@ nav a:hover{
     font-weight: 500;
     display: flex;
     justify-content: center;
+    background-color: white;
+    width: 100vw;
 }
+
 
 form input {
     border: rgb(190, 190, 190) 1px solid;
