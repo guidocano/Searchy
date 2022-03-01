@@ -30,3 +30,14 @@ a{
 .try.try2{
     margin-bottom: -12px;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 640px) {
+
+    html{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+}
